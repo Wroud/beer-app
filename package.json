@@ -1,0 +1,41 @@
+{
+  "name": "beer-app",
+  "version": "0.0.1",
+  "description": "Redux application based on Punk API",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@reatom/core": "^1.0.0-rc13",
+    "@reatom/react": "^1.0.0-rc4",
+    "go-di": "^1.0.5",
+    "next": "9.0.5",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wroud/beer-app.git"
+  },
+  "keywords": [
+    "redux",
+    "reatom",
+    "go-di",
+    "beer",
+    "punk-api"
+  ],
+  "author": "Wroud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wroud/beer-app/issues"
+  },
+  "homepage": "https://github.com/Wroud/beer-app#readme",
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "@types/react": "^16.9.2",
+    "typescript": "^3.6.3"
+  }
+}
